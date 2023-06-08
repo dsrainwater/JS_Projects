@@ -1,0 +1,19 @@
+//second project after the first 4 hours learning JS.
+//myAge will be set to my current age.
+const myAge = 32;
+//earlyYears variable will change, so use let.
+let earlyYears = 2;
+earlyYears = earlyYears * 10.5;
+/*subtract 2 as we have already accounted for the first 2 years.*/
+laterYears = myAge - 2;
+//calculate number of dog years.
+laterYears *= 4
+//test that formulas are working.
+//console.log(earlyYears);
+//console.log(laterYears);
+//calculate my years in dog years.
+myAgeInDogYears = earlyYears + laterYears;
+//create a constant variable for your name.
+const myName = 'Debra'.toLowerCase();
+//print a sentence that shows the formula results.
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
