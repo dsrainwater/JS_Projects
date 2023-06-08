@@ -1,0 +1,17 @@
+//first JS project after 4 hours of study.
+//the value for kelvin will stay constant.
+const kelvin = 0;
+//celsius is 273 degrees less than kelvin.
+let celsius = kelvin - 273;
+//equation for fahrenheit = celsius * (9/5) + 32. 
+let fahrenheit = celsius * (9/5) + 32;
+//round fahrenheit down to the nearest whole number.
+fahrenheit = Math.floor(fahrenheit);
+//print the temperature in fahrenheit.
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+//convert celsius to newton.
+let newton = celsius * (33/100);
+//round newton down to the nearest whole number.
+newton = Math.floor(newton);
+//print the temperature in newton.
+console.log(`The temperature is ${newton} on the Newton scale.`);
